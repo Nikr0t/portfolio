@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars-bg"></canvas>
+  <div class="main-wrapper">
+    <div class="container">
+      <nav class="navbar-content">
+        <div class="logo">Mykyta</div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-burger">
+            <span></span><span></span><span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Domů</a></li>
+            <li><a href="#about">O mně</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+      <div class="about-me">Jsem 17letý vývojář z České republiky. Studuji IT na střední škole GOA Orlová a zaměřuji se hlavně na frontend. Miluju kombinaci moderního designu a čistého kódu. Mám zkušenosti s tvorbou portfolií, landing pages, dashboardů a webových nástrojů. Používám technologie jako HTML, CSS (Grid, Flex), JavaScript, Firebase nebo i AI integrace. Neustále se učím a posouvám. Mým cílem je tvořit weby, které nejen fungují, ale taky vypadají a zanechají dojem.</div>
+      <div class="slogan">Tvořím digitální budoucnost — rychlé, moderní a promyšlené weby s duší.</div>
+      <div class="contact-me">
+        <h2>Kontakt</h2>
+        <div class="contact-info">
+          <div class="contact-row">
+            <img src="images/email.png" alt="Email" class="contact-icon" />
+            <a href="mailto:moja@portfolio.dev" class="contact-link">mykyta.nikolenko@goa-orlova.cz</a>
+          </div>
+          <div class="contact-row">
+            <img src="images/phone.png" alt="Telefon" class="contact-icon" />
+            <a href="tel:+123456789" class="contact-link">+420 721 896 913</a>
+          </div>
+          <div class="contact-row">
+            <img src="images/location.png" alt="Lokace" class="contact-icon" />
+            <span class="contact-link">Ostrava / Havířov</span>
+          </div>
+        </div>
+      </div>
+      <div class="foto">
+        <!-- Replace with your own image -->
+        <img src="https://placehold.co/200x200" alt="Moja Profile Picture" />
+      </div>
+      <div class="text">Nejde jen o to udělat web. Jde o to vytvořit něco, co dává smysl.<br>  
+Každý řádek kódu píšu tak, jako by šel na výstavu.<br>    
+Jsem mladý, ale neztrácím čas — tvořím, zkouším, přemýšlím.<br>    
+Chci dělat projekty, které mě posunou a zároveň pomůžou ostatním.<br>    
+Pokud hledáš někoho, kdo ti udělá web s nápadem, funkčností a péčí, napiš mi.  
+</div>
+      <div class="social-links">
+        <div class="social-icons-row">
+          <!-- Instagram -->
+          <div class="social-icon-col">
+            <a href="#" aria-label="Instagram" class="social-icon-link">
+              <img src="images/instagram.png" alt="Instagram" class="social-icon-img" />
+            </a>
+            <a href="#" class="social-link-name">Instagram</a>
+          </div>
+          <!-- GitHub -->
+          <div class="social-icon-col">
+            <a href="#" aria-label="GitHub" class="social-icon-link">
+              <img src="images/github.png" alt="GitHub" class="social-icon-img" />
+            </a>
+            <a href="#" class="social-link-name">GitHub</a>
+          </div>
+          <!-- LinkedIn -->
+          <div class="social-icon-col">
+            <a href="#" aria-label="LinkedIn" class="social-icon-link">
+              <img src="images/linkedln.png" alt="LinkedIn" class="social-icon-img" />
+            </a>
+            <a href="#" class="social-link-name">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT ME SECTION -->
+    <div class="about-me-container">
+      <div class="about-me-photo-text">
+        <h1>O mně</h1>
+        <img src="https://placehold.co/180x180" alt="Moja Profile" />
+        <p>Jmenuji se Mykyta, je mi 17 let a studuji IT na střední škole GOA Orlová. Specializuji se na frontendový vývoj a rád vytvářím moderní, interaktivní a responzivní webové aplikace.</p>
+      </div>
+
+      <div class="about-me-intro">
+        <h2>Kdo jsem?</h2>
+        <p>
+          Mám zkušenosti s vývojem různých projektů, od jednoduchých portfolií až po složitější weby s využitím databází a externích API. Kromě toho se rád účastním technologických soutěží, kde si testuju schopnosti v reálném prostředí.
+        </p>
+      </div>
+
+      <div class="about-me-experience">
+        <h2>Zkušenosti</h2>
+        <ul>
+          <li><strong>Hackathon 2024</strong> – 2. místo s aplikaci pro finanční gramotnost </li>
+          <li><strong>Solve for Tomorrow (mezinárodní)</strong> – 4. místo s projektem na finanční gramotnost</li>
+          <li><strong>Frontend vývojář</strong> – práce na desítkách projektů (portfolia, landing pages, rezervační systémy, dashboardy)</li>
+        </ul>
+      </div>
+
+      <div class="about-me-education">
+        <h2>Vzdělání</h2>
+        <ul>
+          <li><strong>Střední škola GOA Orlová</strong> – obor Informační technologie te´d jsem na třetim ročníku.</li>
+          <li><strong>Online kurzy:</strong> JavaScript (ES6+), Firebase, Git, základy UI/UX – FreeCodeCamp, Codecademy, YouTube</li>
+        </ul>
+      </div>
+
+      <div class="about-me-skills">
+        <h2>Dovednosti</h2>
+        <ul>
+          <li>
+            <span class="skill-name">Web development</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 87%"></div></div>
+          </li>
+          <li>
+            <span class="skill-name">AI knowledge</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%"></div></div>
+          </li>
+          <li>
+            <span class="skill-name">Figma/Photoshop</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 62%"></div></div>
+          </li>
+          <li>
+            <span class="skill-name">Database</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 46%"></div></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
